@@ -45,6 +45,7 @@ class DemoController extends Controller
 
             // .. setup a message and send it
             // http://symfony.com/doc/current/cookbook/email.html
+            // YES JEnkins.
 
             $request->getSession()->getFlashBag()->set('notice', 'Message sent!');
 
