@@ -38,7 +38,7 @@ class DemoControllerTest extends WebTestCase
         // click on the secure link
         $link = $crawler->selectLink('Hello resource secured')->link();
         $crawler = $client->click($link);
-
+   
         // check that the page is the right one
         $this->assertCount(1, $crawler->filter('h1.title:contains("secured for Admins only!")'));
     }
