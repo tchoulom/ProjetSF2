@@ -13,6 +13,10 @@
         syntaxCheck                 = "false"
         bootstrap                   = "bootstrap.php.cache" >
 
+    <php>
+        <server name="KERNEL_DIR" value="/var/www/jenkins/app" />
+    </php>
+
     <testsuites>
         <testsuite name="Project Test Suite">
             <directory>../src/*/*Bundle/Tests</directory>
