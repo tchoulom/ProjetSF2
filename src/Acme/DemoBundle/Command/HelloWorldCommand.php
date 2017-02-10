@@ -37,7 +37,7 @@ The optional argument specifies who to greet:
 EOF
             );
     }
-
+ 
     /**
      * {@inheritdoc}
      */
