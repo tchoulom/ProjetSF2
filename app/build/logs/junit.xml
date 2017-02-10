@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="Project Test Suite" tests="2" assertions="3" failures="0" errors="0" time="0.135026">
-    <testsuite name="Acme\DemoBundle\Tests\Controller\DemoControllerTest" file="/var/www/jenkins/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" tests="2" assertions="3" failures="0" errors="0" time="0.135026">
-      <testcase name="testIndex" class="Acme\DemoBundle\Tests\Controller\DemoControllerTest" file="/var/www/jenkins/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" line="9" assertions="1" time="0.069988"/>
-      <testcase name="testSecureSection" class="Acme\DemoBundle\Tests\Controller\DemoControllerTest" file="/var/www/jenkins/src/Acme/DemoBundle/Tests/Controller/DemoControllerTest.php" line="18" assertions="2" time="0.065038"/>
-    </testsuite>
-  </testsuite>
-</testsuites>
