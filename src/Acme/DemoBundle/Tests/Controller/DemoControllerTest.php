@@ -33,8 +33,8 @@ class DemoControllerTest extends WebTestCase
         $crawler = $client->followRedirect();
 
         // check that the page is the right one
-        $this->assertCount(1, $crawler->filter('h1.title:contains("Hello World!")'));
-    
+        $this->assertCount(2, $crawler->filter('h1.title:contains("Hello World!")'));
+
         // click on the secure link
         $link = $crawler->selectLink('Hello resource secured')->link();
         $crawler = $client->click($link);
