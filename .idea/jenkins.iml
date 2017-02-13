@@ -18,9 +18,17 @@
       <library name="PHARS">
         <CLASSES>
           <root url="phar://$MODULE_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/bin/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/bin/phploc.phar/" />
+          <root url="phar://$MODULE_DIR$/bin/phpcpd.phar/" />
+          <root url="phar://$MODULE_DIR$/bin/phpcb.phar/" />
         </CLASSES>
         <SOURCES>
           <root url="phar://$MODULE_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/bin/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/bin/phploc.phar/" />
+          <root url="phar://$MODULE_DIR$/bin/phpcpd.phar/" />
+          <root url="phar://$MODULE_DIR$/bin/phpcb.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
